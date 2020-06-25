@@ -13,3 +13,12 @@ describe '四則演算' do
       
     end
 end
+
+context 'バリデーションによって正しいデータ以外保存しない' do
+    
+    before do
+        '例：タイトルが入力されていないデータの作成'
+    end
+    it 'タイトルが入力されていない時は保存しない' do
+    end
+end
